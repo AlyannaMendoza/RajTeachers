@@ -50,7 +50,6 @@ h2 {
     cursor: pointer;
     display: inline-block;
     margin: 15px;
-    transition: transform 0.3s ease-in-out;
 }
 
 .polaroid:hover {
