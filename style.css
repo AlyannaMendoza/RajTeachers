@@ -131,6 +131,17 @@ footer {
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
+        #polaroids {
+        display: grid; /* Change to grid layout */
+        grid-template-columns: repeat(2, 1fr); /* Set to 2 columns */
+        gap: 15px; /* Adjust gap between polaroids */
+    }
+
+    .polaroid {
+        width: 100%; /* Make the polaroid take full width of its grid cell */
+        height: auto; /* Adjust height to maintain aspect ratio */
+    }
+    
     .teacher-card {
         flex-direction: column;
         text-align: center;
